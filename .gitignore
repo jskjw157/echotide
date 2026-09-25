@@ -1,0 +1,15 @@
+# UE5
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.umap
+*.uasset
+# But keep source .cpp/.h
+!Source/**
+
+# Secrets
+*.pem
+*.key
+.env
+Config/ServerKeys.ini
